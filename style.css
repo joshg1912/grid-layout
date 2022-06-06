@@ -18,6 +18,7 @@ ul {
     grid-template-rows: 26vw;
     row-gap: 10px;
     column-gap: 35px;
+    border: 2px solid red;
 }
 
 .column {
@@ -55,4 +56,8 @@ footer {
 .article-img {
     height: 25.8vw;
     width: 59vw;
+}
+
+.profile-info {
+    display: inline-block;
 }

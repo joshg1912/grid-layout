@@ -44,9 +44,12 @@ ul {
     border: 2px solid black;
 }
 
-.footer {
+footer {
     position: fixed;
     bottom: -1px;
+}
+.footer {
     display: flex;
     justify-content: space-between;
 }
+

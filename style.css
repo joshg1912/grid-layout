@@ -14,11 +14,10 @@ ul {
 
 .article {
     display: grid;
-    border: 2px solid red;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 500px;
+    grid-template-rows: 26vw;
     row-gap: 10px;
-    column-gap: 10px;
+    column-gap: 35px;
 }
 
 .column {
@@ -53,3 +52,7 @@ footer {
     justify-content: space-between;
 }
 
+.article-img {
+    height: 25.8vw;
+    width: 59vw;
+}

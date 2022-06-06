@@ -37,4 +37,16 @@ ul {
 
 .main {
     border: 2px solid red;
+    display: grid;
+}
+
+.col {
+    border: 2px solid black;
+}
+
+.footer {
+    position: fixed;
+    bottom: -1px;
+    display: flex;
+    justify-content: space-between;
 }

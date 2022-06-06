@@ -58,6 +58,8 @@ footer {
     width: 59vw;
 }
 
-.profile-info {
-    display: inline-block;
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

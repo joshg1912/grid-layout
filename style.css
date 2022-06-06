@@ -2,3 +2,35 @@
     display: flex;
     justify-content: space-between;
 }
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    background-color: blue;
+    color:white;
+}
+
+.article {
+    display: grid;
+    border: 2px solid red;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.column {
+    border: 2px solid black;
+}
+
+.column-2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+}
+
+.upper-article {
+    border: 2px solid blue;
+}
